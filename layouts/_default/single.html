@@ -1,0 +1,10 @@
+
+{{define "main"}}
+<h1>{{.Title}}</h1>
+{{- partial "subtitle.html" . -}}
+{{- partial "introduction.html" . -}}
+<div>{{- partial "toc.html" . -}}
+{{.Content}}
+{{- partial "postfooter.html" . -}}
+</div>
+{{end}}

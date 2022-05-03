@@ -1,0 +1,17 @@
+
+<!-- This head example shows how to only include certain parts of the template when the parameters are 
+set in the [params] section of config.toml. In this particular example, it enables or disables the 
+links to CSS and the javascript for NetlifyCMS. -->
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  {{ with .Site.Params.css }}
+  <link rel="stylesheet" type="text/css" href="/css/classless.css">
+  {{ end }}
+  <title>{{- .Title -}} - {{ .Site.Title }}</title>
+  {{ if .IsHome }}
+  {{ with .Site.Params.netlifycms }}
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  {{ end }}
+  {{ end }}
+</head>

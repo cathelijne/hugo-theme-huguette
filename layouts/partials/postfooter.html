@@ -1,0 +1,10 @@
+
+<!--This partial creates links to previous and next articles in the same section -->
+<div>
+{{ with .PrevInSection }}
+  <a href="{{ .Permalink }}">{{ .Title }}</a> << &nbsp;
+{{ end }}
+{{ with .NextInSection }}
+  &nbsp; >> <a href="{{ .Permalink }}">{{ .Title }}</a>
+{{ end }}
+</div>

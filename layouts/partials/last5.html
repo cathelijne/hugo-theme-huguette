@@ -1,0 +1,8 @@
+
+<!--This partial links the last 5 articles from the "a" section -->
+<div>
+<h2>How to Install</h2>
+{{range last 5 (where .Site.RegularPages.ByTitle "Section" "a" )}}
+<h4><a href="{{.RelPermalink}}">{{- .Title -}}</a></h4>
+{{ end }}  
+</div>

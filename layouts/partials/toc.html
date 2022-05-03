@@ -1,0 +1,7 @@
+
+<!--This partial writes a Table of contents when your article is longer than 400 words -->
+{{ if (gt .WordCount 400 ) }}
+<aside>
+    {{.TableOfContents}}
+</aside>
+{{ end }}
