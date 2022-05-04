@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: dev # Branch to update (optional; defaults to master)
+  branch: main # Branch to update (optional; defaults to master)
 
 # To enable local development (i.e. not building on Netlify all the time!) uncomment these
 # and set the correct url of your netlify site.
