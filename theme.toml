@@ -4,8 +4,8 @@ licenselink = ""
 description = "A very minimal theme for Hugo with options for classless.css and NetlifyCMS"
 homepage    = ""
 demosite    = ""
-tags        = ["clean", "minimal", "simple", "classlesscss", "netlifycms", "light"]
-features    = ["classlesscss", "NetlifyCMS", "lightweight"]
+tags        = ["clean", "minimal", "simple", "classlesscss", "netlifycms", "light", "resposive"]
+features    = ["classlesscss", "NetlifyCMS", "lightweight", "resposive"]
 
 [author]
   name      = "Cathelijne Hornstra"
