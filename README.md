@@ -18,7 +18,6 @@ If you want just the theme, read on.
 Install the theme like any other theme:
 ```
 git submodule add https://github.com/cathelijne/hugo-theme-huguette.git themes/huguette
-cp themes/huguette/static .
 echo "theme = 'huguette'" >> config.toml
 ```
 
