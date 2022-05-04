@@ -1,9 +1,9 @@
 name        = "Huguette"
 license     = "MIT"
-licenselink = ""
+licenselink = "https://github.com/cathelijne/hugo-theme-huguette/blob/main/LICENSE"
 description = "A very minimal theme for Hugo with options for classless.css and NetlifyCMS"
-homepage    = ""
-demosite    = ""
+homepage    = "https://github.com/cathelijne/hugo-theme-huguette"
+demosite    = "https://huguette.netlify.app/"
 tags        = ["clean", "minimal", "simple", "classlesscss", "netlifycms", "light", "resposive"]
 features    = ["classlesscss", "NetlifyCMS", "lightweight", "resposive"]
 
