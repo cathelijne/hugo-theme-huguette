@@ -1,5 +1,10 @@
-# Hugette - a theme for Hugo
+# Huguette - a theme for Hugo
 
+## TLDR;
+```
+git submodule add https://github.com/cathelijne/hugo-theme-huguette.git themes/huguette
+echo "theme = 'huguette'" >> config.toml
+```
 ![Huguette theme thumbnail](https://github.com/cathelijne/hugo-theme-huguette/blob/main/images/screenshot.png?raw=true)
 
 ## See it in action
