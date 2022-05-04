@@ -10,7 +10,10 @@ Often, I miss a very simple boilerplate theme that just demonstrates what a CMS 
 When I ran into Hugo, I decided to actually make such a simple theme. Without bells an whistles, no javascript, no npm or yarn needed to make changes to the theme. Just plain HTML. And to make it look better, I included classless.css. But using that is entirely optional (it does look good though!). I included a few, just enough, _Hugo partials_ in the theme to give you an idea of what they can do, nothing more. I really had to sit on my hands there :)
 
 ## One-click install with NetlifyCMS
-This repository holds the theme only so you can install it to any existing site. But if you're just starting with Hugo and want a one-click install with the theme, the css and Netlify CMS enabled and hosted on Netlify, you can use the the button on the [eample site repository](https://github.com/cathelijne/hugo-huguette-example) or the [example site itself](https://huguette.netlify.app/).
+This repository holds the theme only so you can install it to any existing site. But if you're just starting with Hugo and want a one-click site install with the theme, the css and Netlify CMS enabled and hosted on Netlify, you can use the button below.
+Jou can also have a look at the the [example site repository](https://github.com/cathelijne/hugo-huguette-example) or the [example site itself](https://huguette.netlify.app/) (you will find the one click install there too).
+
+[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cathelijne/hugo-huguette-example&stack=cms)
 
 If you want just the theme, read on.
 
