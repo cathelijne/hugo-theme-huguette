@@ -1,6 +1,6 @@
 # Hugette - a theme for Hugo
 
-![Huguette theme thumbnail](https://github.com/cathelijne/hugo-theme-huguette/blob/main/images/tn.png?raw=true)
+![Huguette theme thumbnail](https://github.com/cathelijne/hugo-theme-huguette/blob/main/images/screenshot.png?raw=true)
 
 ## See it in action
 Here's an [example site](https://huguette.netlify.app/) to see what Huguette looks like.
