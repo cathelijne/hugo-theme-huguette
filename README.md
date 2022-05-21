@@ -58,3 +58,9 @@ You will need to edit config.yml in admin/static to match your site. Explaining 
 - [Hugo](https://gohugo.io)
 - [Netlify CMS](https://www.netlifycms.org/)
 - [classless.css](https://classless.de/)
+
+### See my other resources for Hugo
+- A [gist](https://gist.github.com/cathelijne/cc7b3b00725f70605321b138dc16f2a8) with a few snippets to use in templates
+- [Huguette](https://github.com/cathelijne/hugo-theme-huguette), a boilerplate theme to get you started and nothing more <-- That's this repo!
+- An [All-in-one](https://github.com/cathelijne/hugo-huguette-example), one-click Netlify install of Hugo with Huguette as a theme
+- [Dummy Content for Hugo](https://github.com/cathelijne/hugo-dummy-content) for Hugo: 100 pages in 5 sections with categories and tags
